@@ -1,0 +1,56 @@
+h1{
+  border: 2px;
+  padding: 20px;
+}
+body {
+  background-color: #ccc;
+}  
+
+.date-selector {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.selectors {  
+  margin-bottom: 10px;
+}
+
+.selector {
+  font-size: 16px;
+  padding: 5px;
+}
+
+
+.calendar{
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.calendar-header {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+}
+
+.day {
+  padding: 5px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1px;
+  padding: 10px;
+}
